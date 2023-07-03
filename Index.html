@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Apparelix</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="stylesheet"
+      href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <header class="header">
+      <div class="header-left">
+        <div class="logo">
+          <img src="/images/img_06_150x50_crop_center.png" alt="" />
+        </div>
+        <!-- n -->
+        <div id="menuButton" class="menu-button">
+          <a
+            href="javascript:void(0);"
+            class="menu-icon"
+            onclick="myFunction()"
+          ></a>
+          <i class="fas fa-bars"></i>
+        </div>
+        <div class="navigation" id="myLinks">
+          <a href="Index.html">HOME</a>
+          <a href="page2.html">ABOUT US</a>
+          <a href="page3.html">CONTACT US</a>
+        </div>
+      </div>
+
+      <div class="header-right">
+        <div class="icon-link">
+          <a href="#" class="search">Search</a>
+          <i class="fas fa-search search-icon"></i>
+        </div>
+        <div class="icon-link">
+          <a href="#" class="sign-in">Sign In</a>
+          <i class="fas fa-user"></i>
+        </div>
+        <div class="icon-link">
+          <a href="#" class="cart">Cart</a>
+          <i class="fas fa-shopping-cart"></i>
+        </div>
+      </div>
+    </header>
+    <main>
+      <div class="main_image">
+        <img
+          src="/images/img_07_0f2700aa-1b9c-4325-8fe6-f6b69c7e2d51_1512x.png"
+          alt=""
+        />
+      </div>
+
+      <div class="main_text">
+        <h1>
+          <span class="text-align-left">NEW</span>
+          <br />
+          <span class="text-align-right">COLLECTION</span>
+        </h1>
+        <div class="Main_button">
+          <button class="black-button">Shop Men</button>
+          <button class="black-button">Shop Women</button>
+        </div>
+      </div>
+    </main>
+    <section class="trending">
+      <p class="clothing">Trending Clothing</p>
+      <div class="trend">
+        <div class="trending1">
+          <img
+            src="/images/img_08_190d39cf-88bf-4374-9dbe-9a674cb0aae5_540x.png"
+            alt=""
+          />
+          <p>Summer Clothes 2021/22</p>
+        </div>
+
+        <div class="trending1">
+          <img
+            src="/images/img_09_16acba50-335a-49bd-90af-dc11a3441412_540x.png"
+            alt=""
+          />
+          <p>Summer Clothes 2021/22</p>
+        </div>
+
+        <div class="trending1">
+          <img src="/images/img_10_540x.png" alt="" />
+          <p style="color: white">Summer Clothes 2021/22</p>
+        </div>
+      </div>
+    </section>
+    <!-- sectin 2... -->
+
+    <div class="slideshow-container">
+      <div class="mySlides fade">
+        <img
+          src="/images/img_11_8909d969-18a3-476d-aaa3-408f953ec20b_1512x - Copy.png"
+          style="width: 100%"
+        />
+        <div class="text">
+          <p>Summer Clothes 2021/22</p>
+          <h1>
+            <span class="text-align-left">NEW</span>
+            <br />
+            <span class="text-align-right">COLLECTION</span>
+          </h1>
+          <div class="Main_button">
+            <button class="black-button">Shop Men</button>
+            <button class="black-button">Shop Women</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="mySlides fade">
+        <img
+          src="/images/img_11_8909d969-18a3-476d-aaa3-408f953ec20b_1512x.png"
+          style="width: 100%"
+        />
+
+        <!-- <div class="text">Caption Two</div> -->
+        <div class="text">
+          <p>Summer Clothes 2021/22</p>
+          <h1>
+            <span class="text-align-left">NEW</span>
+            <br />
+            <span class="text-align-right">COLLECTION</span>
+          </h1>
+          <div class="Main_button">
+            <button class="black-button">Shop Men</button>
+            <button class="black-button">Shop Women</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="mySlides fade">
+        <img
+          src="/images/image3_1170x452_crop_center.jpg"
+          style="width: 100%"
+        />
+        <div class="text">
+          <p>Summer Clothes 2021/22</p>
+          <h1>
+            <span class="text-align-left">NEW</span>
+            <br />
+            <span class="text-align-right">COLLECTION</span>
+          </h1>
+          <div class="Main_button">
+            <button class="black-button">Shop Men</button>
+            <button class="black-button">Shop Women</button>
+          </div>
+        </div>
+      </div>
+
+      <a class="prev" onclick="plusSlides(-1)">❮</a>
+      <a class="next" onclick="plusSlides(1)">❯</a>
+    </div>
+    <br />
+
+    <div style="text-align: center">
+      <span class="dot" onclick="currentSlide(1)"></span>
+      <span class="dot" onclick="currentSlide(2)"></span>
+      <span class="dot" onclick="currentSlide(3)"></span>
+    </div>
+
+    <!-- section 3 -->
+
+    <section class="clearance-section">
+      <p class="clearance-text">Clearance</p>
+      <div class="image-container">
+        <div class="image-wrapper">
+          <img src="/images/img_12_540x.png" alt="Image 1" />
+          <div class="image-overlay">
+            <p class="image-text">Summer Clothes 2021/22</p>
+            <button class="shop-button">Shop</button>
+          </div>
+        </div>
+        <div class="image-wrapper">
+          <img src="/images/img_13_540x.png" alt="Image 2" />
+          <div class="image-overlay">
+            <p class="image-text">Summer Clothes 2021/22</p>
+            <button class="shop-button">Shop</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- section 4 -->
+
+    <section>
+      <h2 class="section-title">Shop Best Sellers</h2>
+
+      <div class="image-slider">
+        <div class="slide">
+          <img src="/images/img_01_288x.png" alt="Image 1" />
+          <p class="image-text2">Dellila Lost Garden fitted T-Shirt</p>
+          <p class="image-price">$154.00</p>
+          <span class="heart-icon">&#9825;</span>
+        </div>
+        <div class="slide">
+          <img src="images/img_02_288x.png" alt="Image 2" />
+          <p class="image-text2">Miriah Embellished Collar Jum</p>
+          <p class="image-price">
+            <span class="bold">$200.00</span>
+            <span class="canceled">$225.00</span>
+          </p>
+
+          <span class="heart-icon">&#9825;</span>
+        </div>
+        <div class="slide">
+          <img src="images/img_03_288x.png" alt="Image 3" />
+          <p class="image-text2">Flylio Long Wrap Coat</p>
+          <p class="image-price">$105.000</p>
+          <span class="heart-icon">&#9825;</span>
+        </div>
+        <div class="slide">
+          <img src="images/img_04_692x.jpg" alt="Image 4" />
+          <p class="image-text2">Lorca Leather Ankle Boots</p>
+          <p class="image-price">$315.00</p>
+          <span class="heart-icon">&#9825;</span>
+        </div>
+        <div class="slide">
+          <img src="images/img_05_288x.png" alt="Image 5" />
+          <p class="image-text2">Lexia Textured Leather Bag</p>
+          <p class="image-price">$223.00</p>
+          <span class="heart-icon">&#9825;</span>
+        </div>
+      </div>
+
+      <div class="slider-dots">
+        <span class="dot active"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+      </div>
+    </section>
+
+    <!-- GET -->
+
+    <div class="get">
+      <h3>Get our latest news and special sales</h3>
+      <p>
+        You may unsubscribe at any moment. For that purpose, please find our
+        contact info in the legal notice
+      </p>
+      <div class="email-form">
+        <input type="email" placeholder="Email address" />
+        <button>Get!</button>
+      </div>
+    </div>
+
+    <!-- footer -->
+    <div class="section-container">
+      <div class="section">
+        <h3>CUSTOMER SERVICE</h3>
+        <p>Monday to Friday</p>
+        <p>10am - 6.30pm (New York time)</p>
+        <p>+(001) 23 45 67 89</p>
+        <p>Send us an email</p>
+      </div>
+      <div class="section">
+        <h3>OUR GUARANTEES</h3>
+        <p>Shipping in 3 days</p>
+        <p>Free returns within 14 days</p>
+
+        <p>Secure payments</p>
+      </div>
+      <div class="section">
+        <h3>OUR Company</h3>
+
+        <p><a href="Index.html">Home</a></p>
+        <p><a href="page2.html">About Us</a></p>
+
+        <p><a href="page3.html">Contact Us</a></p>
+        <p></p>
+      </div>
+    </div>
+
+    <!-- footer2 -->
+
+    <footer>
+      <div class="footer-left">
+        <p>APPARELIX | © 2022 - Powered by Shopify</p>
+      </div>
+      <div class="footer-right">
+        <a href="#"><i class="ion-social-facebook"></i></a>
+        <a href="#"><i class="ion-social-linkedin"></i></a>
+        <a href="#"><i class="ion-social-instagram"></i></a>
+        <a href="#"><i class="ion-social-twitter"></i></a>
+      </div>
+    </footer>
+
+    <section></section>
+  </body>
+</html>
